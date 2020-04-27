@@ -1,0 +1,30 @@
+<!doctype html>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+<head>
+	<title>A page from the Pi</title>
+	<meta name="viewport" content="inital-scale=1.0, maximum-scale=1.0, width=device-width"/>
+	<meta name="HandheldFriendly" content="true"/>
+	<meta name"MobileOptimized" content="320"/>
+</head>
+
+<body>
+	<header id="header">
+		Test website on the Pi
+	</header>
+<main>
+	<section id="start">
+
+		<p>{% if name %}
+                        Hello {{ name }}!
+                        {% else %}
+                        Hello there no name!
+                        {% endif %}</p>
+
+		<p>Some random text I <strong>have written.....blah blah</strong></p>
+		<p>Some more text...blah...blah...blah...pi...<a href="https://en.wikipedia.org/wiki/Meat_pie">Meat pie</a> is found in the Neolithic Period, around 9500 BC. The ancient Egyptians' diet featured basic pies made from oat, wheat, rye, and barley, and filled with honey and baked over hot coals.
+
+The Greeks used a flour-water paste resembling pie pastry, and filled it with meat.[4] These pies were usually fried or cooked under coals. The Romans adopted them, using a variety of meats, oysters, mussels, lampreys, and fish as filling and a mixture of flour, oil, and water for the crust. This 'pastry' cover was not meant to be eaten and was thrown away.</p>
+	</section>
+</main>
+</body>
+

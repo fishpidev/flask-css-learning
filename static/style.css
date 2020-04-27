@@ -1,0 +1,68 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:300, 400, 500';
+
+header h1{
+	color: white;
+	font-size: 5.9vw;
+	font-weigt: 300;
+	text-size-adjust: auto;
+	text-align: center;
+	vertical-align: top;
+}
+
+
+header {
+
+	color: white;
+        font-size: 5.9vw;
+        font-weigt: 300;
+        text-size-adjust: auto;
+        text-align: center;
+        vertical-align: top;
+
+	background-color: #263d36;
+	background-image: url("angel-sinigersky-512707-unsplash.jpg");
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	height: 25px;
+	
+	
+	line-height: 1.2;
+	padding: 10vw 2em;
+
+}
+
+body {
+	margin: 0 auto;
+	max-width: 50em;
+
+	font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+
+	line-height: 1.5;
+	padding: 4em 1em;
+
+	color: #e8851b;
+
+}
+
+h2{
+	margin-top: 1em;
+	padding-top: 1em;
+
+}
+
+
+p
+strong {
+	color: #333;
+}
+
+a {
+	color: #6ae81b
+
+}
+
+pre {
+	border-left: 2px solid #c866cc;
+}
